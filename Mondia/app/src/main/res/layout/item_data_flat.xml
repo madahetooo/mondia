@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    
+    <ImageView
+        android:id="@+id/item_data_flat_iv_flat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/item_data_flat_tv_tital"
+        android:layout_toEndOf="@+id/item_data_flat_iv_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="انتي معلمه"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/item_data_flat_tv_type_flat"
+        android:layout_below="@+id/item_data_flat_tv_tital"
+        android:layout_toEndOf="@+id/item_data_flat_iv_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شعبي"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/item_data_flat_tv_name"
+        android:layout_below="@+id/item_data_flat_tv_type_flat"
+        android:layout_toEndOf="@+id/item_data_flat_iv_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شعبي"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+
+    
+
+</RelativeLayout>
